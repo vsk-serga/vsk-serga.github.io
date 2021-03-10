@@ -1,4 +1,4 @@
 # Андрей Серга
 Мои домашние задания
 
-[Урок_](https://vsk-serga.github.io/lesson_/ "Урок без номера")
+[Урок_](https://vsk-serga.github.io/lesson_/ "Урок без номера") - Работа с репозиторием GitHub
