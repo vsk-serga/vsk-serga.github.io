@@ -1,0 +1,29 @@
+.btn {
+  margin-top: 20px;
+}
+.modal-content {
+  border: 2px solid red;
+}
+.modal-header {
+  background-color: red;
+  color: white;
+}
+.modal-footer {
+  border-top: none;
+}
+.close {
+  color: white;
+  opacity: 1;
+}
+.btn-yes, .btn-no {
+  padding: 5px;
+  width: 100px;
+  color: white;
+}
+.btn-yes {
+  background-color: red;
+  float: left;
+}
+.btn-no {
+  background-color: green;
+}
