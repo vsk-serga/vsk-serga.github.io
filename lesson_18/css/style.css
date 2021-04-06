@@ -1,0 +1,186 @@
+@font-face {
+  font-family: 'Ubuntu_bold';
+  src: url('../fonts/Ubuntu-Bold.eot');
+  src: url('../fonts/Ubuntu-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Ubuntu-Bold.woff2') format('woff2'), url('../fonts/Ubuntu-Bold.woff') format('woff'), url('../fonts/Ubuntu-Bold.ttf') format('truetype'), url('../fonts/Ubuntu-Bold.svg#Ubuntu-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Ubuntu_reg';
+  src: url('../fonts/Ubuntu-Regular.eot');
+  src: url('../fonts/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Ubuntu-Regular.woff2') format('woff2'), url('../fonts/Ubuntu-Regular.woff') format('woff'), url('../fonts/Ubuntu-Regular.ttf') format('truetype'), url('../fonts/Ubuntu-Regular.svg#Ubuntu-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MyriadPro_reg';
+  src: url('../fonts/MyriadPro-Regular.eot');
+  src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/MyriadPro-Regular.woff2') format('woff2'), url('../fonts/MyriadPro-Regular.woff') format('woff'), url('../fonts/MyriadPro-Regular.ttf') format('truetype'), url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-size: 10px;
+}
+.registration {
+  font-family: 'MyriadPro_Reg', sans-serif;
+  display: block;
+  position: relative;
+  width: 800px;
+  height: 500px;
+  margin: 100px auto;
+  padding-top: 10px;
+  background: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.95)), url("../img/Layer.png") center center;
+}
+.registration-input {
+  display: block;
+  position: relative;
+  width: 480px;
+  height: 60px;
+  margin: 30px auto;
+  padding-left: 20px;
+  border: none;
+  border-radius: 3px;
+  background: url("../img/Shape_4.png");
+  color: #ffffff;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 0.917;
+}
+.registration-input::placeholder {
+  color: white;
+}
+.registration-p {
+  margin-left: 80px;
+  margin-bottom: 50px;
+  color: #c51f03;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.467;
+}
+.registration-tab {
+  display: block;
+  position: relative;
+  width: 630px;
+  height: 445px;
+  margin: 10px auto;
+}
+.registration-tab-nav {
+  padding-left: 20px;
+  border: none;
+}
+.registration-tab-nav > li > a {
+  padding: 5px 25px;
+  margin-right: 10px;
+  border: none;
+  background-color: #ffffff;
+  font-size: 2.4rem;
+  color: #080707;
+  font-weight: 400;
+  line-height: 0.917;
+}
+.registration-tab-nav > li.active > a,
+.registration-tab-nav > li.active > a:hover,
+.registration-tab-nav > li.active > a:focus {
+  background-color: #03a5da;
+  font-weight: 400;
+  line-height: 0.917;
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.75);
+  color: #ffffff;
+  border: none;
+}
+.registration-tab-content {
+  width: 630px;
+  height: 410px;
+  padding-top: 30px;
+  border: 20px solid #03a5da;
+  border-radius: 5px;
+  background-color: #000000;
+}
+.form-check-label {
+  margin-left: 80px;
+  color: #6f6d6d;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.467;
+}
+.form-check-input[type="radio"],
+.form-check-input[type="checkbox"] {
+  margin-right: 5px;
+}
+.form-button {
+  position: absolute;
+  right: -18px;
+  bottom: 35px;
+  background: url("../img/ribbon.png");
+  width: 137px;
+  height: 52px;
+  border: none;
+}
+.form-button:hover {
+  background: url("../img/ribbon_hover.png");
+  transition: 0.2s;
+}
+.form-button:active {
+  transform: translateY(4px);
+}
+.form-button:focus {
+  outline: none;
+}
+.fon {
+  background: url("../img/bg-img.png");
+  margin-bottom: 50px;
+}
+.garmon {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 745px;
+}
+.garmon-header {
+  font-family: 'Ubuntu_bold', sans-serif;
+  color: #0bbaf0;
+  font-size: 3.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 80px;
+}
+.garmon-header-p {
+  font-family: 'Ubuntu_reg', sans-serif;
+  color: #0bbaf0;
+  font-size: 2.4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 18px;
+}
+.garmon-group {
+  width: 860px;
+  margin: 50px auto;
+}
+.garmon-panel {
+  height: 55px;
+  background-color: #0bbaf0;
+  border-radius: 0;
+}
+.garmon-panel a {
+  font-family: 'Ubuntu_reg', sans-serif;
+  color: #ffffff;
+  font-size: 2.32rem;
+  line-height: 3.5rem;
+  text-decoration: none;
+}
+.garmon-body {
+  width: 838px;
+  height: 134px;
+  border-radius: 0 0 10px 10px;
+  border-width: 4px;
+  border-color: #dcdcdc;
+  border-style: solid;
+  background-color: #ffffff;
+  font-family: 'Ubuntu_reg', sans-serif;
+  color: #535353;
+  font-size: 2.2rem;
+  margin: 0 auto -7px;
+}
